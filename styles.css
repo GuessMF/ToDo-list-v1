@@ -23,7 +23,7 @@ body {
 
 #input {
   width: auto;
-  height: 26px;
+  height: auto;
   background-color: #dbe2ef;
   color: black;
   border-radius: 4px;
