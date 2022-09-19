@@ -4,11 +4,11 @@ body {
 
 .main {
   text-align: center;
-  width: 600px;
+  width: auto;
   height: auto;
   border: white solid 1px;
-  margin-left: 28%;
-  margin-top: 5%;
+
+  margin: 10% 25%;
   padding-bottom: 3%;
   background-color: #f9f7f7;
   border-radius: 20px;
@@ -22,7 +22,7 @@ body {
 }
 
 #input {
-  width: 210px;
+  width: auto;
   height: 26px;
   background-color: #dbe2ef;
   color: black;
@@ -46,28 +46,29 @@ body {
 }
 
 hr {
-  width: 500px;
+  width: auto;
+  margin: 4% 8%;
   background-color: #000000;
   border-style: dashed;
   border: #b1b1b1 0.5px solid;
 }
 
 .div-inputs {
-  width: 250px;
+  width: auto;
   height: 30px;
   display: flex;
   flex-direction: row;
   border: 1px #b1b1b1 solid;
-  margin-left: 28%;
+  margin: 5% 25%;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
 p {
   background-color: #dbe2ef;
-  width: 490px;
+  width: auto;
   height: 34px;
-  margin-left: 9%;
+  margin: 2% 10%;
   color: #112d4e;
   text-align: left;
   padding-top: 15px;
