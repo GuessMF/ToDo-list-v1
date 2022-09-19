@@ -1,0 +1,127 @@
+body {
+  background-color: #3f72af;
+}
+
+.main {
+  text-align: center;
+  width: 600px;
+  height: auto;
+  border: white solid 1px;
+  margin-left: 28%;
+  margin-top: 5%;
+  padding-bottom: 3%;
+  background-color: #f9f7f7;
+  border-radius: 20px;
+}
+
+.header {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #112d4e;
+}
+
+#input {
+  width: 210px;
+  height: 26px;
+  background-color: #dbe2ef;
+  color: black;
+  border-radius: 4px;
+  border: #dbe2ef solid 1px;
+  flex-grow: 2;
+}
+
+#btn {
+  width: 45px;
+  height: 30px;
+  background-color: #3f72af;
+  border-radius: 4px;
+  border: 0.5px;
+  color: #dbe2ef;
+  font-size: 17px;
+}
+#btn:hover {
+  background-color: #173e6a;
+  color: #b1b1b1;
+}
+
+hr {
+  width: 500px;
+  background-color: #000000;
+  border-style: dashed;
+  border: #b1b1b1 0.5px solid;
+}
+
+.div-inputs {
+  width: 250px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  border: 1px #b1b1b1 solid;
+  margin-left: 28%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  background-color: #dbe2ef;
+  width: 490px;
+  height: 34px;
+  margin-left: 9%;
+  color: #112d4e;
+  text-align: left;
+  padding-top: 15px;
+  border-radius: 5px;
+
+  animation-duration: 0.5s;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  from {
+    margin-top: -7px;
+    /* animation-timing-function: ease-out; */
+  }
+  to {
+    margin-top: 15px;
+    animation-timing-function: ease-in;
+  }
+}
+
+.ggg {
+  background-color: #dbe2ef;
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: #3f72af solid 1px;
+}
+
+.ggg:hover {
+  background-color: #3f72af;
+  border: #f9f7f7 solid 1px;
+}
+
+.deleted {
+  background-color: #3f72af;
+  animation-duration: 0.5s;
+  animation-name: slide;
+}
+@keyframes slide {
+  from {
+    width: 490px;
+    margin-left: 9%;
+    color: #112d4e;
+    background-color: #dbe2ef;
+    /* animation-timing-function: ease-out; */
+  }
+
+  to {
+    width: 1px;
+    color: #f9f7f7;
+    background-color: #f9f7f7;
+    margin-left: 90%;
+    /* animation-timing-function: ease-in; */
+  }
+}
