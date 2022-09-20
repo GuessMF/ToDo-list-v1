@@ -1,5 +1,20 @@
+html {
+  height: 100%;
+}
+/* body{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+} */
+
 body {
   background-color: #3f72af;
+  touch-action: manipulation;
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .main {
@@ -128,13 +143,44 @@ p {
   }
 }
 
+.footer {
+  text-align: center;
+  margin: 10% auto;
+}
+
+.githubLogo {
+  width: 50px;
+  height: 50px;
+}
+/* #reserved {
+  background-color: initial;
+  width: initial;
+  height: initial;
+  margin: initial;
+  color: initial;
+  text-align: initial;
+  padding-top: initial;
+  border-radius: initial;
+
+  animation-duration: initial;
+  animation-name: initial;
+} */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .main {
-    width: auto;
+    width: 300px;
     margin: 15% auto;
   }
   hr {
-    width: 300px;
+    width: 80%;
     margin: 5% auto;
   }
   .div-inputs {
@@ -146,5 +192,9 @@ p {
   p {
     width: auto;
     margin: 5%;
+  }
+
+  .footer {
+    margin-top: 50%;
   }
 }
